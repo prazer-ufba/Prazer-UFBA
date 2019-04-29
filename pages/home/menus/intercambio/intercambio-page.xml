@@ -1,0 +1,11 @@
+<Page class="page" navigatingTo="onNavigatingTo">
+    <ActionBar class="action-bar" title="Intercâmbio">
+        <NavigationButton text="Back" icon="~/resources/back.png" tap="backTap"/>
+    </ActionBar>
+    
+    <AbsoluteLayout width="370">
+        <Label text="Dúvidas sobre o intercâmbio?" color="gray" class="h3" top="10"/>
+        <Label text="Acompanhe nossas atualizações e fique por dentro de tudo!" width="370" textWrap="true" color="gray" class="h3" top="55"/>
+    </AbsoluteLayout>
+
+</Page>

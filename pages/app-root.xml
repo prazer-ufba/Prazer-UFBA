@@ -1,0 +1,17 @@
+<TabView class="tab-view" androidTabsPosition="bottom">
+    <TabViewItem title="Início" ios:iconSource="~/resources/iosHome.png" android:iconSource="~/resources/home.png">
+        <Frame id="home" defaultPage="pages/home/home-page"/>
+    </TabViewItem>
+
+    <TabViewItem title="Mapas" ios:iconSource="~/resources/iosMaps.png" android:iconSource="~/resources/maps.png">
+        <Frame id="maps" defaultPage="pages/maps/maps-page"/>
+    </TabViewItem>
+
+    <TabViewItem title="Calendário" ios:iconSource="~/resources/iosCalendar.png" android:iconSource="~/resources/calendar.png">
+        <Frame id="calendar" defaultPage="pages/calendar/calendar-page"/>
+    </TabViewItem>
+
+    <TabViewItem title="Noticias" ios:iconSource="~/resources/iosNews.png" android:iconSource="~/resources/news.png">
+        <Frame id="news" defaultPage="pages/news/news-page"/>
+    </TabViewItem>
+</TabView>

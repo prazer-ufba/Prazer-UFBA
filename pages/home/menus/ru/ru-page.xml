@@ -1,0 +1,14 @@
+<Page class="page" navigatingTo="onNavigatingTo">
+    <ActionBar class="action-bar" title="Restaurante Universitário">
+        <NavigationButton text="Back" icon="~/resources/back.png" tap="backTap"/>
+    </ActionBar>
+    
+    <AbsoluteLayout width="370">
+        <Label text="Confira aqui os cardápios do dia de cada RU da UFBA:" textWrap="true" width="370" color="gray" class="h3" top="10"/>
+        <GridLayout rows="25,70,25,70,25" top="75" width="370">
+            <Button class="btn btn-primary btn-rounded-sm" text="Ondina"  tap="buttonTap" row="1"  width="200" height="50"/>
+            <Button class="btn btn-primary btn-rounded-sm" text="São Lázaro"  tap="buttonTap" row="3" width="200" height="50"/>
+        </GridLayout>
+    </AbsoluteLayout>
+
+</Page>

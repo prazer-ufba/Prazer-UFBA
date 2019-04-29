@@ -1,0 +1,14 @@
+<Page class="page" navigatingTo="onNavigatingTo">
+    <ActionBar class="action-bar" title="Notícias"/>
+
+    <ListView items="{{ items }}">
+        <ListView.itemTemplate>
+            <GridLayout rows="10,auto,auto,auto,auto,10" columns="20,*,20">
+                <Label text="{{ title }}" class="h4 text-center" textWrap="true" row="1" col="1"/>
+                <Label text="{{ date }}" class="h6 text-center" textWrap="true" row="2" col="1"/>
+                <HtmlView html="{{ desc }}" textWrap="true" row="3" col="1"/>
+                <Button class="btn btn-primary btn-rounded-sm" text="{{ btnText }}" href="{{ link }}" type="{{ btnType }}" tap="onReadMoreTap" row="4" col="1"/>
+            </GridLayout>
+        </ListView.itemTemplate>
+    </ListView>
+</Page>

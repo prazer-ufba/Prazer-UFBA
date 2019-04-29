@@ -1,0 +1,15 @@
+<Page class="page" navigatingTo="onNavigatingTo">
+    <ActionBar class="action-bar" title="Mapas"/>
+
+    <AbsoluteLayout width="370">
+        <Label text="Selecione a localidade que você deseja ter acesso:" textWrap="true" width="370" color="gray" class="h3" top="10"/>
+        <GridLayout columns="25,*,25,*,25" rows="25,70,25,70,25,70,25" top="75" width="370">
+            <Button class="btn btn-primary btn-rounded-sm" text="Ondina/Federação" id="mp_ondina" tap="buttonTap" row="1" col="1" width="160" height="50"/>
+            <Button class="btn btn-primary btn-rounded-sm" text="Canela" id="mp_canela" tap="buttonTap" row="1" col="3" width="160" height="50"/>
+            <Button class="btn btn-primary btn-rounded-sm" text="São Lazaro" tap="buttonTap" row="3" col="1" width="160" height="50"/>
+            <Button class="btn btn-primary btn-rounded-sm" text="Reitoria" tap="buttonTap" row="3" col="3" width="160" height="50"/>
+            <Button class="btn btn-primary btn-rounded-sm" text="Residências" tap="buttonTap" row="5" col="1" width="160" height="50"/>
+            <Button class="btn btn-primary btn-rounded-sm" text="Pelourinho" tap="buttonTap" row="5" col="3" width="160" height="50"/>
+        </GridLayout>
+    </AbsoluteLayout>
+</Page>

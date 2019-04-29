@@ -1,0 +1,15 @@
+<Page class="page" navigatingTo="onNavigatingTo">
+    <ActionBar class="action-bar" title="Matrícula">
+        <NavigationButton text="Back" icon="~/resources/back.png" tap="backTap"/>
+    </ActionBar>
+    
+    <AbsoluteLayout width="370">
+        <Label text="Tire todas suas duvidas sobre:" textWrap="true" width="370" color="gray" class="h3" top="10"/>
+        <GridLayout rows="25,70,25,70,25,70,25" top="55" width="370">
+            <Button class="btn btn-primary btn-rounded-sm" text="Matrícula Web"  tap="buttonTap" row="1"  width="200" height="50"/>
+            <Button class="btn btn-primary btn-rounded-sm" text="Matrícula Presencial"  tap="buttonTap" row="3" width="200" height="50"/>
+            <Button class="btn btn-primary btn-rounded-sm" text="Lixão" tap="buttonTap" row="5" width="200" height="50"/>
+        </GridLayout>
+    </AbsoluteLayout>
+
+</Page>

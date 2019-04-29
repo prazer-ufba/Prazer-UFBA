@@ -1,0 +1,8 @@
+<Page class="page" navigatingTo="onNavigatingTo" xmlns:ui="nativescript-image-zoom">
+    <ActionBar class="action-bar" title="{{ name }}">
+        <NavigationButton text="Back" icon="~/resources/back.png" tap="backTap"/>
+    </ActionBar>
+
+    <ui:ImageZoom src="{{ file }}"/>
+
+</Page>

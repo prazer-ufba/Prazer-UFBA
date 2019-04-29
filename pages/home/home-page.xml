@@ -1,0 +1,37 @@
+<Page class="page" navigatingTo="onNavigatingTo">
+    <ActionBar class="action-bar" title="Início"/>
+    
+    <AbsoluteLayout width="370">
+    <Label text="Prazer, UFBA!" color="gray" class="h2" top="10"/>
+    <Label text="O seu aplicativo oficial da UFBA!" color="gray" class="h3" top="65"/>
+    <Label text="Saiba tudo sobre:" color="gray" class="h3" top="115"/>
+    <GridLayout columns="*,*" rows="*,*,*" top="180" width="370">
+        <GridLayout columns="160" rows="90,30" row="0" col="0" class="input input-border" width="160" height="120" id="matricula" tap="onItemTap">
+            <Image src="~/resources/matricula.png" stretch="aspectFit" row="0" />
+            <Label text="Matricula" row="1" color="gray" class="h4 text-center"/>
+        </GridLayout>
+        <GridLayout columns="160" rows="90,30" row="0" col="1"  class="input input-border" width="160" height="120" id="buzufba" tap="onItemTap">
+            <Image src="~/resources/buzufba.png" stretch="aspectFit" row="0" />
+            <Label text="BuzUFBA" row="1" color="gray" class="h4 text-center" />
+        </GridLayout>
+        <GridLayout columns="160" rows="90,30" row="1" col="0"  class="input input-border" width="160" height="120" id="ru" tap="onItemTap">
+            <Image src="~/resources/ru.png" stretch="aspectFit" row="0" />
+            <Label text="RU" row="1" color="gray" class="h4 text-center" />
+        </GridLayout>
+        <GridLayout columns="160" rows="90,30" row="1" col="1"  class="input input-border" width="160" height="120" id="intercambio" tap="onItemTap">
+            <Image src="~/resources/intercambio.png" stretch="aspectFit" row="0" />
+            <Label text="Intercâmbio" row="1" color="gray" class="h4 text-center" />
+        </GridLayout>
+        <GridLayout columns="160" rows="90,30" row="2" col="0"  class="input input-border" width="160" height="120" id="idiomas" tap="onItemTap">
+            <Image src="~/resources/idiomas.png" stretch="aspectFit" row="0" />
+            <Label text="Idiomas" row="1" color="gray" class="h4 text-center" />
+        </GridLayout>
+        <GridLayout columns="160" rows="90,30" row="2" col="1"  class="input input-border" width="160" height="120" id="utilidades" tap="onItemTap">
+            <Image src="~/resources/utilidades.png" stretch="aspectFit" row="0" />
+            <Label text="Utilidades" row="1" color="gray" class="h4 text-center" />
+        </GridLayout>
+    </GridLayout>
+    
+    </AbsoluteLayout>
+
+</Page>
