@@ -9,7 +9,7 @@ function onItemTap(args) {
         matricula:"pages/home/menus/matricula/matricula-page",
         buzufba:"pages/home/menus/buzufba/buzufba-page",
         ru:"pages/home/menus/ru/ru-page",
-        intercambio:"pages/home/menus/intercambio/intercambio-page",
+        transferencia:"pages/home/menus/transferencia/transferencia-page",
         idiomas:"pages/home/menus/idiomas/idiomas-page",
         utilidades:"pages/home/menus/utilidades/utilidades-page"
 

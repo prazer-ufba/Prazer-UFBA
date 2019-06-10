@@ -1,5 +1,5 @@
 <Page class="page" navigatingTo="onNavigatingTo" xmlns:calendar="nativescript-ui-calendar">
     <ActionBar class="action-bar" title="Calendário"/>
     
-    <calendar:RadCalendar id="calendar" top="130" />
+    <calendar:RadCalendar id="calendar" eventSource="{{ events }}"/>
 </Page>

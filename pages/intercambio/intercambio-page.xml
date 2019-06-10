@@ -1,0 +1,14 @@
+<Page class="page" navigatingTo="onNavigatingTo">
+    <ActionBar class="action-bar" title="Intercâmbio">
+        <NavigationButton text="Back" icon="~/resources/back.png" tap="backTap"/>
+    </ActionBar>
+    
+    <AbsoluteLayout width="370">
+        <Label text="Acompanhe aqui as melhores oportunidades de intercâmbio:" textWrap="true" width="370" color="gray" class="h3" top="10"/>
+        <GridLayout rows="25,70,25,70,25" top="65" width="370">
+            <Button class="btn btn-primary btn-rounded-sm" text="Partiu Intercambio" tap="buttonTap" row="1"  width="200" height="50" goto="pages/intercambio/feed-partiuintercambio"/>
+            <Button class="btn btn-primary btn-rounded-sm" text="UFBA AAI"  tap="buttonTap" row="3" width="200" height="50" url="https://aai.ufba.br/"/>
+        </GridLayout>
+    </AbsoluteLayout>
+
+</Page>

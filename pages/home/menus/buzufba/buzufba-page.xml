@@ -4,15 +4,10 @@
     </ActionBar>
     
     <AbsoluteLayout width="370">
-        <Label text="Confira aqui os horários dos buzufbas:" textWrap="true" width="370" color="gray" class="h3" top="10"/>
-        <GridLayout columns="25,*,25,*,25" rows="25,70,25,70,25,70,25" top="75" width="370">
-            <Button class="btn btn-primary btn-rounded-sm" text="Expresso"  tap="buttonTap" row="1" col="1"  width="160" height="50"/>
-            <Button class="btn btn-primary btn-rounded-sm" text="B1"  tap="buttonTap" row="1" col="3" width="160" height="50"/>
-            <Button class="btn btn-primary btn-rounded-sm" text="B2"  tap="buttonTap" row="3" col="1"  width="160" height="50"/>
-            <Button class="btn btn-primary btn-rounded-sm" text="B3"  tap="buttonTap" row="3" col="3" width="160" height="50"/>
-            <Button class="btn btn-primary btn-rounded-sm" text="B4"  tap="buttonTap" row="5" col="1"  width="160" height="50"/>
-            <Button class="btn btn-primary btn-rounded-sm" text="B5"  tap="buttonTap" row="5" col="3" width="160" height="50"/>
-        </GridLayout>
+        <Label text="Confira aqui o que é, e quais são os horários dos buzufbas:" textWrap="true" width="370" color="gray" class="h3" top="10"/>
+        <GridLayout rows="25,70,25,70,25" top="85" width="370">
+            <Button class="btn btn-primary btn-rounded-sm" text="Informações" id="info"  tap="buttonTap" row="1" width="200" height="50"/>
+            <Button class="btn btn-primary btn-rounded-sm" text="Horários" id="hora"  tap="buttonTap" row="3" width="200" height="50"/>        </GridLayout>
     </AbsoluteLayout>
 
 </Page>

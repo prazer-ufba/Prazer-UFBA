@@ -1,0 +1,8 @@
+<Page class="page" navigatingTo="onNavigatingTo">
+    <ActionBar class="action-bar" title="Transferência">
+        <NavigationButton text="Back" icon="~/resources/back.png" tap="backTap"/>
+    </ActionBar>
+    
+    <htmlView html="{{ content }}" textWrap="true" class="m-x-10"/>
+
+</Page>

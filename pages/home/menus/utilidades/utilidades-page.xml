@@ -4,11 +4,10 @@
     </ActionBar>
     
     <AbsoluteLayout width="370">
-        <Label text="Aqui você encontra informações sobre salas livres, locais que possuem xeros e banheiros mais próximos:" textWrap="true" width="370" color="gray" class="h3" top="10"/>
-        <GridLayout rows="25,70,25,70,25,70,25" top="140" width="370">
-            <Button class="btn btn-primary btn-rounded-sm" text="Xerox"  tap="buttonTap" row="1"  width="200" height="50"/>
-            <Button class="btn btn-primary btn-rounded-sm" text="Salas Livres"  tap="buttonTap" row="3" width="200" height="50"/>
-            <Button class="btn btn-primary btn-rounded-sm" text="Banheiros"  tap="buttonTap" row="5" width="200" height="50"/>
+        <Label text="Aqui você encontra mapas, e informações sobre locais de xerox e banheiros:" textWrap="true" width="370" color="gray" class="h3" top="10"/>
+        <GridLayout rows="25,70,25,70,25" top="140" width="370">
+            <Button class="btn btn-primary btn-rounded-sm" text="Mapa" id="maps" tap="buttonTap" row="3" width="200" height="50"/>
+            <Button class="btn btn-primary btn-rounded-sm" text="Xerox & Banheiros" id="xerox"  tap="buttonTap" row="1"  width="200" height="50"/>
         </GridLayout>
     </AbsoluteLayout>
 

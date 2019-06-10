@@ -1,0 +1,8 @@
+<Page class="page" navigatingTo="onNavigatingTo">
+    <ActionBar class="action-bar" title="{{ title }}">
+        <NavigationButton text="Back" icon="~/resources/back.png" tap="backTap"/>
+    </ActionBar>
+
+    <HtmlView html="{{content}}" textWrap="true" class="m-x-10"/>
+
+</Page>

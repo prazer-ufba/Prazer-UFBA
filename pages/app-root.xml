@@ -3,15 +3,15 @@
         <Frame id="home" defaultPage="pages/home/home-page"/>
     </TabViewItem>
 
-    <TabViewItem title="Mapas" ios:iconSource="~/resources/iosMaps.png" android:iconSource="~/resources/maps.png">
-        <Frame id="maps" defaultPage="pages/maps/maps-page"/>
+    <TabViewItem title="Intercâmbio" ios:iconSource="~/resources/iosIntercambio.png" android:iconSource="~/resources/intercambio.png">
+        <Frame id="maps" defaultPage="pages/intercambio/intercambio-page"/>
     </TabViewItem>
 
     <TabViewItem title="Calendário" ios:iconSource="~/resources/iosCalendar.png" android:iconSource="~/resources/calendar.png">
         <Frame id="calendar" defaultPage="pages/calendar/calendar-page"/>
     </TabViewItem>
 
-    <TabViewItem title="Noticias" ios:iconSource="~/resources/iosNews.png" android:iconSource="~/resources/news.png">
+    <TabViewItem title="Notícias" ios:iconSource="~/resources/iosNews.png" android:iconSource="~/resources/news.png">
         <Frame id="news" defaultPage="pages/news/news-page"/>
     </TabViewItem>
 </TabView>

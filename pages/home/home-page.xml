@@ -18,9 +18,9 @@
             <Image src="~/resources/ru.png" stretch="aspectFit" row="0" />
             <Label text="RU" row="1" color="gray" class="h4 text-center" />
         </GridLayout>
-        <GridLayout columns="160" rows="90,30" row="1" col="1"  class="input input-border" width="160" height="120" id="intercambio" tap="onItemTap">
-            <Image src="~/resources/intercambio.png" stretch="aspectFit" row="0" />
-            <Label text="Intercâmbio" row="1" color="gray" class="h4 text-center" />
+        <GridLayout columns="160" rows="90,30" row="1" col="1"  class="input input-border" width="160" height="120" id="transferencia" tap="onItemTap">
+            <Image src="~/resources/transferencia.png" stretch="aspectFit" row="0" />
+            <Label text="Transferência" row="1" color="gray" class="h4 text-center" />
         </GridLayout>
         <GridLayout columns="160" rows="90,30" row="2" col="0"  class="input input-border" width="160" height="120" id="idiomas" tap="onItemTap">
             <Image src="~/resources/idiomas.png" stretch="aspectFit" row="0" />

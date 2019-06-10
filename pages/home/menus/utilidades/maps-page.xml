@@ -1,0 +1,6 @@
+<Page class="page" xmlns:ui="nativescript-image-zoom">
+    <ActionBar class="action-bar" title="Mapa Ondina/Federação">
+        <NavigationButton text="Back" icon="~/resources/back.png" tap="backTap"/>
+    </ActionBar>
+    <ui:ImageZoom src="~/resources/mapaondina.png/"/>
+</Page>

@@ -7,9 +7,9 @@
         <Label text="PROFICI, NUPEL, ou disciplina no SIAC?" color="gray" width="370" textWrap="true" class="h3" top="10"/>
         <Label text="Saiba a opção que melhor se adapta a você!" color="gray" width="370" textWrap="true" class="h3" top="75"/>
         <GridLayout rows="25,70,25,70,25,70,25" top="130" width="370">
-            <Button class="btn btn-primary btn-rounded-sm" text="PROFICI"  tap="buttonTap" row="1"  width="200" height="50"/>
-            <Button class="btn btn-primary btn-rounded-sm" text="NUPEL"  tap="buttonTap" row="3" width="200" height="50"/>
-            <Button class="btn btn-primary btn-rounded-sm" text="SIAC"  tap="buttonTap" row="5" width="200" height="50"/>
+            <Button class="btn btn-primary btn-rounded-sm" text="PROFICI"  tap="buttonTap" row="1"  width="200" height="50" id="profici"/>
+            <Button class="btn btn-primary btn-rounded-sm" text="NUPEL"  tap="buttonTap" row="3" width="200" height="50" id="nupel"/>
+            <Button class="btn btn-primary btn-rounded-sm" text="SIAC"  tap="buttonTap" row="5" width="200" height="50" id="siac"/>
         </GridLayout>
     </AbsoluteLayout>
 
